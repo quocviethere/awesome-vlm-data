@@ -66,7 +66,17 @@ This is the repository corresponding with the blog post on data-centric analysis
 8. **OmniCorpus (1.7T)** | Li et al. (2024). OmniCorpus: A Unified Multimodal Corpus of 10 Billion-Level Images Interleaved with Text. In *arXiv*. [PDF](https://doi.org/10.48550/ARXIV.2406.08418)  
 
 
+---
 
+## Data Filtering
+
+1. **MetaCLIP** | Xu et al. (2024). Demystifying CLIP Data. In *ICLR (Spotlight)*. [PDF]([https://doi.org/10.48550/ARXIV.2406.08418](https://openreview.net/pdf?id=5BCFlnfE1g))
+
+2. Nguyen et al. (2022). Quality Not Quantity: On the Interaction between Dataset Design and Robustness of CLIP. In *NeurIPS*. [PDF]()
+
+3. Fang et al. (2024). Data Filtering Networks. In *ICLR*. [PDF](https://doi.org/10.48550/arXiv.2309.17425)
+
+4. Goyal et al. (2024). The Science of Data Filtering: Data Curation cannot be Compute Agnostic. In CVPR. [PDF](https://arxiv.org/pdf/2404.07177)
 
 ---
 
@@ -102,7 +112,7 @@ This is the repository corresponding with the blog post on data-centric analysis
 
 15. **Zhu et al.** (2024). *ChatGPT Asks, BLIP-2 Answers: Automatic Questioning Towards Enriched Visual Descriptions*. In *TMLR*. [PDF](https://arxiv.org/pdf/2303.06594.pdf)
 
-## VLM Scaling
+## Scaling
 
 1. **Jia et al.** (2021). Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision. In *ICML*.
 
