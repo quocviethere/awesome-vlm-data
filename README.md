@@ -1,7 +1,12 @@
 # Awesome VLM Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This is the repository corresponding with the blog post on data-centric analysis for Vision-Language Models.
+This is the repository corresponding with the [blog post](https://quocviethere.github.io/blog/2025/vlmdata/) on data-centric analysis for Vision-Language Models.
 
+## Table of Contents
+
+- [Datasets](#datasets)
+  - [Image-text pair data](#image-text-pair-data)
+  - [Interleaved-text pair data](#interleaved-image-text-data)   
 
 ## Datasets
 ---
@@ -45,7 +50,7 @@ This is the repository corresponding with the blog post on data-centric analysis
 
 ---
 
-### Interleaved Image-text pair data
+### Interleaved Image-text data
 
 > Dataset size measured in terms of number of tokens.
 
@@ -65,7 +70,6 @@ This is the repository corresponding with the blog post on data-centric analysis
 
 8. **OmniCorpus (1.7T)** | Li et al. (2024). OmniCorpus: A Unified Multimodal Corpus of 10 Billion-Level Images Interleaved with Text. In *arXiv*. [PDF](https://doi.org/10.48550/ARXIV.2406.08418)  
 
-
 ---
 
 ## Data Filtering
@@ -80,37 +84,55 @@ This is the repository corresponding with the blog post on data-centric analysis
 
 ---
 
-## Synthetic captions
+# Data Augmentation
 
-1. **Li et al.** (2022). *BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation*. In *ICML*, 12888–12900. [PDF](https://arxiv.org/pdf/2201.12086.pdf)
+1. T-MARS
 
-2. **Li et al.** (2024). *What If We Recaption Billions of Web Images with LLaMA-3?* In *arXiv*.
+2. Visual Data-Type Understanding does not emerge from scaling Vision-Language Models. In *ICLR*. [PDF](https://openreview.net/pdf?id=WyEdX2R4er)
 
-3. **Sharifzadeh et al.** (2024). *Synth$^2$: Boosting Visual-Language Models with Synthetic Captions and Image Embeddings*. In *arXiv*.
+3. 
 
-4. **Liu et al.** (2024). *CLIPS: An Enhanced CLIP Framework for Learning with Synthetic Captions*. In *arXiv*.
+---
 
-5. **Yang et al.** (2023). *ALIP: Adaptive Language-Image Pre-training with Synthetic Caption*. In *ICCV*, 2910–2919. [PDF](https://arxiv.org/pdf/2310.07699.pdf)
+## Synthetic data
 
-6. **Fang et al.** (2024). *VILA$^2$: VILA Augmented VILA*. In *arXiv*.
+### Captions
 
-7. **Fan et al.** (2023). *Improving CLIP Training with Language Rewrites*. In *NeurIPS*.
+1. **Li et al.** (2022). BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation. In *ICML*, 12888–12900. [PDF](https://arxiv.org/pdf/2201.12086.pdf)
 
-8. **Hammoud et al.** (2024). *SynthCLIP: Are We Ready for a Fully Synthetic CLIP Training?* In *CVPR 2024 Synthetic Data for Computer Vision Workshop*. [PDF](https://arxiv.org/pdf/2402.01832.pdf)
+2. **Li et al.** (2024). What If We Recaption Billions of Web Images with LLaMA-3? In *arXiv*.
 
-9. **Lai et al.** (n.d.). *From Scarcity to Efficiency: Improving CLIP Training via Visual-enriched Captions*.
+3. **Sharifzadeh et al.** (2024). Synth$^2$: Boosting Visual-Language Models with Synthetic Captions and Image Embeddings. In *arXiv*.
 
-10. **Lai et al.** (2025). *VeCLIP: Improving CLIP Training via Visual-Enriched Captions*. In *Lecture Notes in Computer Science*, 111–127. [PDF](https://arxiv.org/pdf/2310.07699.pdf)
+4. **Liu et al.** (2024). CLIPS: An Enhanced CLIP Framework for Learning with Synthetic Captions. In *arXiv*.
 
-11. **Nguyen et al.** (2023). *Improving Multimodal Datasets with Image Captioning*. In *NeurIPS*.
+5. **Yang et al.** (2023). ALIP: Adaptive Language-Image Pre-training with Synthetic Caption. In *ICCV*, 2910–2919. [PDF](https://arxiv.org/pdf/2310.07699.pdf)
 
-12. **Rotstein et al.** (2024). *FuseCap: Leveraging Large Language Models for Enriched Fused Image Captions*. In *WACV*, 5677–5688. [PDF](https://arxiv.org/pdf/2402.01832.pdf)
+6. **Fang et al.** (2024). VILA$^2$: VILA Augmented VILA. In *arXiv*.
 
-13. **Santurkar et al.** (2023). *Is a Caption Worth a Thousand Images? A Study on Representation Learning*. In *ICLR*.
+7. **Fan et al.** (2023). Improving CLIP Training with Language Rewrites. In *NeurIPS*.
 
-14. **Yu et al.** (2024). *CapsFusion: Rethinking Image-Text Data at Scale*. In *CVPR*.
+8. **Hammoud et al.** (2024). SynthCLIP: Are We Ready for a Fully Synthetic CLIP Training? In *CVPR 2024 Synthetic Data for Computer Vision Workshop*. [PDF](https://arxiv.org/pdf/2402.01832.pdf)
 
-15. **Zhu et al.** (2024). *ChatGPT Asks, BLIP-2 Answers: Automatic Questioning Towards Enriched Visual Descriptions*. In *TMLR*. [PDF](https://arxiv.org/pdf/2303.06594.pdf)
+9. **Lai et al.** (2025). VeCLIP: Improving CLIP Training via Visual-Enriched Captions. In *Lecture Notes in Computer Science*, 111–127. [PDF](https://arxiv.org/pdf/2310.07699.pdf)
+
+10. **Nguyen et al.** (2023). Improving Multimodal Datasets with Image Captioning. In *NeurIPS*.
+
+11. **Rotstein et al.** (2024). FuseCap: Leveraging Large Language Models for Enriched Fused Image Captions. In *WACV*, 5677–5688. [PDF](https://arxiv.org/pdf/2402.01832.pdf)
+
+12. **Santurkar et al.** (2023). Is a Caption Worth a Thousand Images? A Study on Representation Learning. In *ICLR*.
+
+13. **Yu et al.** (2024). CapsFusion: Rethinking Image-Text Data at Scale. In *CVPR*.
+
+14. **Zhu et al.** (2024). ChatGPT Asks, BLIP-2 Answers: Automatic Questioning Towards Enriched Visual Descriptions. In *TMLR*. [PDF](https://arxiv.org/pdf/2303.06594.pdf)
+
+### Images
+
+1. SynthVLM: High-Efficiency and High-Quality Synthetic Data for Vision Language Models. In *ArXiV*. [PDF]()
+
+2. **Sharifzadeh et al.** (2024). Synth$^2$: Boosting Visual-Language Models with Synthetic Captions and Image Embeddings. In *arXiv*.
+
+3. **Hammoud et al.** (2024). SynthCLIP: Are We Ready for a Fully Synthetic CLIP Training?. In *CVPR Workshop*. [PDF](https://arxiv.org/pdf/2402.01832)
 
 ## Scaling
 
@@ -118,4 +140,15 @@ This is the repository corresponding with the blog post on data-centric analysis
 
 2. **Pham et al.** (2023). Combined scaling for zero-shot transfer learning. In *Neurocomputing*. [PDF](https://doi.org/10.1016/j.neucom.2023.126658)
 
-3. 
+## Generalization
+
+1. **Prasanna et al. (2024). Does CLIP’s generalization performance mainly stem from high train-test similarity ? In *ICLR*. [PDF](https://openreview.net/pdf?id=tnBaiidobu)
+
+
+## Evaluation
+
+1. CLIPScore
+
+2. **Elissa et al.** (2024). ContextRef: Evaluating Referenceless Metrics for Image Description Generation. In *ICLR*. [PDF](https://openreview.net/pdf?id=j0ZvKSNZiP)
+
+## Multilinguality
