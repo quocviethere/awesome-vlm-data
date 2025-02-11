@@ -1,12 +1,21 @@
 # Awesome VLM Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This is the repository corresponding with the [blog post](https://quocviethere.github.io/blog/2025/vlmdata/) on data-centric analysis for Vision-Language Models.
+This is the repository corresponding with the [blog post](https://quocviethere.github.io/blog/vlmdata.html) on data-centric analysis for Vision-Language Models.
 
 ## Table of Contents
 
 - [Datasets](#datasets)
   - [Image-text pair data](#image-text-pair-data)
-  - [Interleaved-text pair data](#interleaved-image-text-data)   
+  - [Interleaved-text pair data](#interleaved-image-text-data)
+- [Data Filtering](#data-filtering)
+- [Data Augmentation](#data-augmentation)
+- [Synthetic Data](#synthetic-data)
+  - [Captions](#captions)
+  - [Images](#images)
+- [Scaling](#scaling)
+- [Generalization](#generalization)
+- [Evaluation](#evaluation)
+- [Multilinguality](#multilinguality)
 
 ## Datasets
 ---
@@ -72,31 +81,29 @@ This is the repository corresponding with the [blog post](https://quocviethere.g
 
 ---
 
-## Data Filtering
+# Data Filtering
 
 1. **MetaCLIP** | Xu et al. (2024). Demystifying CLIP Data. In *ICLR (Spotlight)*. [PDF]([https://doi.org/10.48550/ARXIV.2406.08418](https://openreview.net/pdf?id=5BCFlnfE1g))
 
-2. Nguyen et al. (2022). Quality Not Quantity: On the Interaction between Dataset Design and Robustness of CLIP. In *NeurIPS*. [PDF]()
+2. **Nguyen et al. (2022)**. Quality Not Quantity: On the Interaction between Dataset Design and Robustness of CLIP. In *NeurIPS*. [PDF]()
 
-3. Fang et al. (2024). Data Filtering Networks. In *ICLR*. [PDF](https://doi.org/10.48550/arXiv.2309.17425)
+3. **Fang et al. (2024).** Data Filtering Networks. In *ICLR*. [PDF](https://doi.org/10.48550/arXiv.2309.17425)
 
-4. Goyal et al. (2024). The Science of Data Filtering: Data Curation cannot be Compute Agnostic. In CVPR. [PDF](https://arxiv.org/pdf/2404.07177)
+4. **Goyal et al. (2024)**. The Science of Data Filtering: Data Curation cannot be Compute Agnostic. In CVPR. [PDF](https://arxiv.org/pdf/2404.07177)
 
 ---
 
 # Data Augmentation
 
-1. T-MARS
+1. **Maini et al. (2024).** T-MARS: Improving Visual Representations by Circumventing Text Feature Learning. In *ICLR*. [PDF](https://arxiv.org/pdf/2307.03132)
 
 2. Visual Data-Type Understanding does not emerge from scaling Vision-Language Models. In *ICLR*. [PDF](https://openreview.net/pdf?id=WyEdX2R4er)
 
-3. 
-
 ---
 
-## Synthetic data
+# Synthetic data
 
-### Captions
+## Captions
 
 1. **Li et al.** (2022). BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation. In *ICML*, 12888–12900. [PDF](https://arxiv.org/pdf/2201.12086.pdf)
 
@@ -126,29 +133,34 @@ This is the repository corresponding with the [blog post](https://quocviethere.g
 
 14. **Zhu et al.** (2024). ChatGPT Asks, BLIP-2 Answers: Automatic Questioning Towards Enriched Visual Descriptions. In *TMLR*. [PDF](https://arxiv.org/pdf/2303.06594.pdf)
 
-### Images
+## Images
 
-1. SynthVLM: High-Efficiency and High-Quality Synthetic Data for Vision Language Models. In *ArXiV*. [PDF]()
+1. **Liu et al. (2024).** SynthVLM: High-Efficiency and High-Quality Synthetic Data for Vision Language Models. In *ArXiV*. [PDF]()
 
 2. **Sharifzadeh et al.** (2024). Synth$^2$: Boosting Visual-Language Models with Synthetic Captions and Image Embeddings. In *arXiv*.
 
 3. **Hammoud et al.** (2024). SynthCLIP: Are We Ready for a Fully Synthetic CLIP Training?. In *CVPR Workshop*. [PDF](https://arxiv.org/pdf/2402.01832)
 
-## Scaling
+# Scaling
 
 1. **Jia et al.** (2021). Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision. In *ICML*.
 
 2. **Pham et al.** (2023). Combined scaling for zero-shot transfer learning. In *Neurocomputing*. [PDF](https://doi.org/10.1016/j.neucom.2023.126658)
 
-## Generalization
+# Generalization
 
-1. **Prasanna et al. (2024). Does CLIP’s generalization performance mainly stem from high train-test similarity ? In *ICLR*. [PDF](https://openreview.net/pdf?id=tnBaiidobu)
+1. **Prasanna et al. (2024)**. Does CLIP’s generalization performance mainly stem from high train-test similarity ? In *ICLR*. [PDF](https://openreview.net/pdf?id=tnBaiidobu)
 
+# Evaluation
 
-## Evaluation
-
-1. CLIPScore
+1. **Hessel et al. (2022).** CLIPScore: A Reference-free Evaluation Metric for Image Captioning. In *EMLNLP*. [PDF](https://arxiv.org/pdf/2104.08718)
 
 2. **Elissa et al.** (2024). ContextRef: Evaluating Referenceless Metrics for Image Description Generation. In *ICLR*. [PDF](https://openreview.net/pdf?id=j0ZvKSNZiP)
 
-## Multilinguality
+# Multilinguality
+
+1. **Nguyen et al. (2024).** Multilingual diversity improves vision-language representations. In *arXiv*. [PDF](https://arxiv.org/pdf/2405.16915)
+
+2. **Chen et al. (2023).** PaLI-X: On Scaling up a Multilingual Vision and Language Model. In *arXiv*. [PDF](https://arxiv.org/pdf/2305.18565)
+
+
