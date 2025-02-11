@@ -1,6 +1,6 @@
 # Awesome VLM Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This is the repository corresponding with the [blog post](https://quocviethere.github.io/blog/vlmdata.html) on data-centric analysis for Vision-Language Models.
+This is the repository corresponding with the [blog post](https://quocviethere.github.io/blogs/vlmdata.html) on data-centric analysis for Vision-Language Models.
 
 ## Table of Contents
 
